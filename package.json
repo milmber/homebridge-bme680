@@ -1,6 +1,6 @@
 {
   "name": "homebridge-bme680",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "BME680 temperature/humidity/pressure sensor bridge for Homebridge: https://github.com/nfarina/homebridge\"",
   "main": "dist/sensor.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/trho/homebridge-bme680"
+    "url": "git://github.com/milnber/homebridge-bme680"
   },
   "keywords": [
     "homebridge-plugin",
@@ -22,21 +22,27 @@
   "author": "rxserger",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/trho/homebridge-bme680/issues"
+    "url": "https://github.com/milnber/homebridge-bme680/issues"
   },
   "engines": {
     "node": ">=6.0.0",
     "homebridge": ">=0.2.0"
   },
-  "homepage": "https://github.com/trho/homebridge-bme680#readme",
+  "homepage": "https://github.com/milnber/homebridge-bme680#readme",
   "dependencies": {
-    "@types/node": "^8.0.30",
-    "debug": "^2.2.0",
-    "fakegato-history": "0.5.1",
-    "hap-nodejs": "^0.4.43",
-    "jvsbme680": "1.0.4",
-    "mcuiot-logger": "^0.0.7",
-    "moment": "^2.18.1",
-    "typescript": "2.8.3"
+    "fakegato-history": ">=0.5.1",
+    "jvsbme680": ">=1.0.4",
+    "mcuiot-logger": ">=0.0.7",
+    "moment": ">=2.18.1"
+  },
+  "devDependencies": {
+    "@types/node": ">=8.0.30",
+    "debug": ">=2.2.0",
+    "fakegato-history": ">=0.5.1",
+    "hap-nodejs": ">=0.4.43",
+    "jvsbme680": ">=1.0.4",
+    "mcuiot-logger": ">=0.0.7",
+    "moment": ">=2.18.1",
+    "typescript": ">=2.8.3"
   }
 }
