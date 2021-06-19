@@ -3,8 +3,8 @@
 Fork from [thro's](https://github.com/trho) [homebridge-bme680](https://github.com/trho/homebridge-bme680) plugin
 providing bme680 support for homebridge which introduces the following
 
-* Fixes package.json for compatibility with latest homebridge versions
-* A for of bsec_bme_680_linux to retain compatibility with this plugin
+* Fixes `package.json` for compatibility with latest homebridge versions
+* A fork of [bsec_bme680_linux](https://github.com/milmber/bsec_bme680_linux) to retain compatibility with this plugin
 
 # Build Instructions
 
@@ -17,7 +17,7 @@ providing bme680 support for homebridge which introduces the following
 
 1.	Install Homebridge
 2.	Install this plugin `npm install -g homebridge-bme680/` (targeting the directory where this package was checked out to)
-3.  Compile bsec_bme680 executable by following the guide on https://github.com/alexh-name/bsec_bme680_linux
+3.  Compile bsec_bme680 executable by following the guide on [milmber/bsec_bme680_linux](https://github.com/milmber/bsec_bme680_linux)
 4.  Copy `bsec_bme680` and `bsec_iaq.config` and `bsec_iaq.state` (if created) to the Homebridge storagePath (e.g. `/var/lib/homebridge`)
 5.  Ensure the right permissions for the `bsec_iaq.state` file so that the Homebridge process can write to it.    
 6.	Update your configuration file - see below for an example
@@ -111,9 +111,9 @@ e. Copy the code you're given, paste it into the command-line prompt, and press 
 * [homebridge-ds18b20](https://www.npmjs.com/package/homebridge-ds18b20)
 * [homebridge-dht-sensor](https://www.npmjs.com/package/homebridge-dht-sensor)
 * [homebridge-dht](https://www.npmjs.com/package/homebridge-dht)
-* [bsec_bme680_linux fork] https://github.com/trho/bsec_bme680_linux
-* https://github.com/rxseger/homebridge-bme280
-* https://github.com/jorisvervuurt/jvsbme680
+* [trho/bsec_bme680_linux](https://github.com/trho/bsec_bme680_linux)
+* [rxseger/homebridge-bme280](https://github.com/rxseger/homebridge-bme280)
+* [jorisvervuurt/jvsbme680](https://github.com/jorisvervuurt/jvsbme680)
 
 
 ## Credits
